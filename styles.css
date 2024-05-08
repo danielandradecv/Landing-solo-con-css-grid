@@ -293,12 +293,14 @@ body{
 .cont4 img{
     width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
+    
 }
 
 .cont5{
     grid-column: 6/10;
     grid-row: 4 / 9;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-right: 42px;
    
     
@@ -310,6 +312,9 @@ body{
     
     width: 100%;
     height: 80%;
+    transition: transform 0.3s ease;
+    position: relative; /* Asegura que el z-index funcione correctamente */
+    
 }
 
 
@@ -334,14 +339,14 @@ body{
     grid-column: 1/13;
     display: grid;
     grid-auto-flow: column;
-    justify-items: end;
     align-items: center;
     justify-items: start;
   }
 
   .menu img {
-    width: 24%;
-    margin-left: 130px;
+    width: 25%;
+    min-width: 250px;
+    margin-left: 11%;
   }
   
   .menu ul {
@@ -402,7 +407,7 @@ body{
 
   .cont8{
     grid-row: 5/6;
-    grid-column: 4/8;
+    grid-column: 4/9;
     background-color: #1e5bcc;
     margin-top: 52px;
     display: grid;
@@ -410,6 +415,7 @@ body{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    position: relative;
   }
 
   .cont8 p{
@@ -422,7 +428,7 @@ body{
 
   .cont9{
     grid-row: 6/7;
-    grid-column: 8/11;
+    grid-column: 8/12;
     background-color: #1e5bcc;
     margin-top: 15px;
     margin-bottom: 28px;
@@ -460,7 +466,7 @@ body{
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    height: 100vh;
+   
   }
 
   .raya1{
@@ -508,4 +514,72 @@ body{
    color: #ffffff;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
    margin-top: -61px;
+  }
+
+  @media screen and (max-width: 888px){
+    
+    .menu{    
+    font-family: Arial, sans-serif;
+    grid-row: 1/2;
+    grid-column: 1/14;
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    
+    }
+
+    .menu img{
+        min-width: 186px;
+        margin-left: 0%;
+    }
+
+    .menu ul{
+        margin: 0;
+    }
+
+    .cont1{
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 128px;
+        
+        
+    }
+    
+    
+    .cont1d1, .cont1d2, .cont1d3{
+        
+        width: 4vh;
+        margin-right: 20px;
+    }
+
+    .circulito1 {
+        border-radius: 50%;
+        border: solid 4px rgb(255, 255, 255);
+        width: 4vh;
+        height: 4vh;
+        margin: 5px;
+    }
+
+    .circulito2 {
+        border-radius: 50%;
+        border: solid 4px rgb(255, 255, 255);
+        width: 4vh;
+        height: 4vh;
+        margin: 5px;
+    }
+
+   
+  }
+
+  @media screen and (max-width: 425px){
+    .menu ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        adding: 5px 0px; 
+        transition: all 0.3s ease;
+        font-size: 15px;
+    }
+
   }
