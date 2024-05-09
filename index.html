@@ -77,8 +77,8 @@
         const cont5 = document.querySelector('.cont5');
             
         document.addEventListener('mousemove', function(e) {
-            const xAxis = (window.innerWidth / 1 - e.pageX) / 200;
-            const yAxis = (window.innerHeight / 1 - e.pageY) / 200;
+            const xAxis = (window.innerWidth / 7 - e.pageX) / 50;
+            const yAxis = (window.innerHeight / 1 - e.pageY) / 300;
             
             cont4.style.transform = `translate(${xAxis}px, ${yAxis}px)`;
             cont5.style.transform = `translate(${-xAxis}px, ${-yAxis}px)`; // Invertir el efecto para la otra imagen
