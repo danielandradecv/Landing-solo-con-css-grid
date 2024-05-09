@@ -1,6 +1,6 @@
 body{
 
-    background: #AF1B1B;
+    background: #102C57;
     margin: 0;
     
     
@@ -27,7 +27,7 @@ body{
 
 
 .cont1d1, .cont1d2, .cont1d3{
-    background-color: #cc381e;
+    background-color: #3C5B6F;
     grid-row: 1 / -1;
     width: 65px;
     margin-right: 20px;
@@ -63,7 +63,7 @@ body{
 
 
 .cont2d1 svg{
-    fill: #293384;
+    fill: #ff8e00;
     
    
 }
@@ -100,7 +100,7 @@ body{
 }
 
 .cont2d2 svg{
-    fill: #293384;
+    fill: #ff8e00;
     
     
 }
@@ -139,7 +139,7 @@ body{
 .circulito1{
     
     border-radius: 50%;
-    border: solid 10px rgb(255, 255, 255);
+    border: solid 10px #DFD0B8;
     width: 5vh;
     height: 5vh;
     margin: 5px;
@@ -149,7 +149,7 @@ body{
 .circulito2{
     
     border-radius: 50%;
-    border: solid 10px rgb(255, 255, 255);
+    border: solid 10px #DFD0B8;
     width: 5vh;
     height: 5vh;
     margin: 5px;
@@ -370,7 +370,7 @@ body{
   }
   
   .menu ul li a:hover {
-    color: #11ce00;
+    color: #cc381e;
     width: 78%;
     
   }
@@ -379,7 +379,7 @@ body{
   .cont7{
     grid-row: 2/3;
     grid-column: 9/14;
-    background-color: #cc381e;
+    background-color: #DFD0B8;
     margin-top: 35px;
     display: grid;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
@@ -389,7 +389,7 @@ body{
 
   .cont7B{
     
-    background-color: #0039f5;
+    background-color: #3C5B6F;
     width: 208px;
     display: grid;
     align-items: center;
@@ -408,7 +408,7 @@ body{
   .cont8{
     grid-row: 5/6;
     grid-column: 4/9;
-    background-color: #1e5bcc;
+    background-color: #3C5B6F;
     margin-top: 52px;
     display: grid;
     justify-items: center;
@@ -458,6 +458,7 @@ body{
     margin-left: 56px;
     font-family: cursive;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 2px #5f3504;
   }
 
   .rayas {
