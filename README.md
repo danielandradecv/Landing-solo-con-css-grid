@@ -1,6 +1,6 @@
 # Landing Page 🚀
 
-Una landing page moderna y responsiva 👁️👁️👉 [ver proyecto landing page](https://tu-portafolio.github.io/landing-page-ejemplo/).
+Una landing page moderna y responsiva 👁️👁️👉 [ver proyecto landing page](https://danielandradecv.github.io/Landing-solo-con-css-grid/).
 
 Este proyecto consiste en una landing page completamente responsive, diseñada utilizando técnicas modernas de CSS como Flexbox y Grid Layout. La página se adapta a diferentes resoluciones de pantalla, ofreciendo una experiencia de usuario óptima tanto en dispositivos móviles como en escritorios.
 
@@ -34,7 +34,7 @@ Aplique algunos efectos manipulando el DOM donde la imagen principal sigue el pu
 
 ## Cómo ver el proyecto
 
-Puedes ver el proyecto en acción visitando el siguiente enlace: [Landing Page Ejemplo](https://tu-portafolio.github.io/landing-page-ejemplo/).
+Puedes ver el proyecto en acción visitando el siguiente enlace: [Landing Page Ejemplo](https://danielandradecv.github.io/Landing-solo-con-css-grid/).
 
 ---
 
