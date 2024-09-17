@@ -1,6 +1,6 @@
 # Landing Page 🚀
 
-Una landing page moderna y responsiva creada durante mis clases de Frontend Developer en Platzi 👁️👁️👉 [ver proyecto landing page](https://tu-portafolio.github.io/landing-page-ejemplo/).
+Una landing page moderna y responsiva 👁️👁️👉 [ver proyecto landing page](https://tu-portafolio.github.io/landing-page-ejemplo/).
 
 Este proyecto consiste en una landing page completamente responsive, diseñada utilizando técnicas modernas de CSS como Flexbox y Grid Layout. La página se adapta a diferentes resoluciones de pantalla, ofreciendo una experiencia de usuario óptima tanto en dispositivos móviles como en escritorios.
 
