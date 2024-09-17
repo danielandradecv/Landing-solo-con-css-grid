@@ -445,6 +445,7 @@ body{
     font-size: 50px;
     margin: 0;
     font-family: cursive;
+    
   }
 
 
@@ -590,6 +591,7 @@ body{
     grid-row: 4 / 8;
     padding-top: 60px;
     padding-left: 48px;
+    z-index: -1;
     }
 
     .cont7 {
@@ -615,6 +617,7 @@ body{
     .cont9{
     grid-column: 1/4; 
     grid-row: 7 / 8;
+    z-index: 2;
     }
 
     .cont9 p{
@@ -681,6 +684,13 @@ body{
         padding-left: 48px;
     }
 
+    .cont5 img {
+        width: 86%;
+        height: 103%;
+        transition: transform 0.3s ease;
+        position: relative;
+    }
+
     .cont7 {
         grid-column: 2 / -1;
         position: relative;
@@ -721,6 +731,7 @@ body{
         grid-row: 7 / 9;
         grid-column: 5 / 7;
         font-size: 27px;
+        
     }
 
         .cont5 {
