@@ -2,9 +2,9 @@
 
 Una landing page moderna y responsiva 👁️👁️👉 [ver proyecto landing page](https://danielandradecv.github.io/Landing-solo-con-css-grid/).
 
-Este proyecto consiste en una landing page completamente responsive, diseñada utilizando técnicas modernas de CSS como Flexbox y Grid Layout. La página se adapta a diferentes resoluciones de pantalla, ofreciendo una experiencia de usuario óptima tanto en dispositivos móviles como en escritorios.
+Este proyecto consiste en una landing page completamente responsive, diseñada utilizando técnicas modernas de CSS Grid Layout. La página se adapta a diferentes resoluciones de pantalla, ofreciendo una experiencia de usuario óptima tanto en dispositivos móviles como en escritorios.
 
-El objetivo principal del proyecto fue aplicar y consolidar conocimientos adquiridos en el curso de Frontend Developer, logrando un diseño limpio y funcional, con un enfoque en la organización eficiente del contenido mediante display flex y grid, permitiendo una estructura flexible y de fácil mantenimiento.
+El objetivo principal del proyecto fue aplicar y consolidar conocimientos adquiridos en el curso de Frontend Developer, logrando un diseño limpio y funcional, con un enfoque en la organización eficiente del contenido mediante display grid, permitiendo una estructura flexible y de fácil mantenimiento.
 
 Aplique algunos efectos manipulando el DOM donde la imagen principal sigue el puntero del mouse.
 
@@ -28,7 +28,7 @@ Aplique algunos efectos manipulando el DOM donde la imagen principal sigue el pu
 ## Tecnologías usadas:
 
 - HTML5
-- CSS3 (Grid y Flexbox)
+- CSS3 
 - Git y GitHub
 - Responsive Design
 
